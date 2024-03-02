@@ -2,6 +2,5 @@
 function hurdleRace(k, height) {
   // Write your code here
   var maxH = Math.max(...height);
-  console.log(maxH);
   return Math.max(maxH - k, 0);
 }
